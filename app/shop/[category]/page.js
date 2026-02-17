@@ -190,8 +190,8 @@ const CategoryPage = () => {
                                             <h3 className="text-lg font-medium text-zinc-600">{product.product_name}</h3>
                                         </div>
                                         <div className="flex gap-6 justify-around items-center mb-2 border border-gray-400 rounded-md px-2">
-                                            <p className=" text-lg font-medium text-gray-700">Price</p>
-                                            <p>{product.price}<span className="text-green-500 font-bold">PKR</span></p>
+                                            <p className="text-sm md:text-lg font-medium text-gray-700">Price</p>
+                                            <p className="text-sm">{product.price}<span className="text-green-500 text-sm font-medium">PKR</span></p>
                                         </div>
                                         <p className="text-sm text-gray-400 line-clamp-2">{product.description}</p>
                                         <div className="mt-1">

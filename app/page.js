@@ -35,7 +35,7 @@ export default function Home() {
     };
 
     const categories = [
-        { id: 1, name: 'Premium Shirts', slug:"shirts", desc: 'Formal & Casual', image: '/shirts.jpg' },
+        { id: 1, name: 'Premium Shirts', slug:"shirts", desc: 'Formal & Casual', image: '/shrts.jpg' },
         { id: 2, name: 'Denim Jeans', slug:"jeans", desc: 'Classic & Modern', image: '/jeans.jpg' },
         { id: 3, name: 'Trendy Sneakers', slug:"sneakers", desc: 'Sporty & Casual', image: '/sneaker.jpg' },
         { id: 4, name: 'Stylish Jackets', slug:"jackets", desc: 'Warm & Fashionable', image: '/jackets.jpg' },
