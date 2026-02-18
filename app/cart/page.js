@@ -51,8 +51,9 @@ export default function CartPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className="lg:col-span-2">
                         {cart.map((item,index) => (
-                            <div key={index} className="flex items-center border-b py-6">
-                                {/* Product Image */}
+                            <div key={index} className="flex flex-col sm:flex-row sm:items-center border-b py-6 gap-4">
+
+                            {/* Product Image */}
                                 <div className="w-24 h-24 flex-shrink-0">
                                     <img
                                         src={item.image}
@@ -94,8 +95,9 @@ export default function CartPage() {
                                 </div>
 
                                 {/* Item Total */}
-                                <div className="text-right">
-                                    <p className="font-bold">PKR{(item.price * item.quantity).toFixed(2)}</p>
+                                <div className="sm:ml-auto sm:text-right">
+
+                                <p className="font-bold">PKR{(item.price * item.quantity).toFixed(2)}</p>
                                 </div>
                             </div>
                         ))}
